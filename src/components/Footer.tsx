@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Links */}
           <div className="flex items-center gap-6 text-sm">
             <a
-              href="https://github.com/muhammedgumus/one-prompt-portfolio"
+              href="https://github.com/muhammed-gumus/one-prompt-portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -25,16 +25,16 @@ export default function Footer() {
             </a>
             <span className="text-gray-800">·</span>
             <a
-              href="https://github.com/muhammedgumus"
+              href="https://github.com/muhammed-gumus"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              @muhammedgumus
+              @muhammed-gumus
             </a>
             <span className="text-gray-800">·</span>
             <a
-              href="https://linkedin.com/in/muhammedgumus"
+              href="https://linkedin.com/in/muhammedgums"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
