@@ -372,7 +372,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with curiosity by [Muhammed Gümüş](https://github.com/muhammedgumus)**
+**Built with curiosity by [Muhammed Gümüş](https://muhammedgumus.com)**
 
 🌐 **[one-prompt-portfolio.vercel.app](https://one-prompt-portfolio.vercel.app)**
 
