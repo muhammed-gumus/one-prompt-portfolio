@@ -6,7 +6,9 @@
 
 <div align="center">
 
-**[Gemini 3 Pro](#-gemini-3-pro) · [Gemini 3 Flash](#-gemini-3-flash) · [Claude Sonnet 4.5](#-claude-sonnet-45) · [Claude Opus 4.6](#-claude-opus-46)**
+🌐 **[Live Demo](https://one-prompt-portfolio.vercel.app)**
+
+**[Gemini 3 Pro](https://one-prompt-portfolio.vercel.app/gemini-3-pro) · [Gemini 3 Flash](https://one-prompt-portfolio.vercel.app/gemini-3-flash) · [Claude Sonnet 4.5](https://one-prompt-portfolio.vercel.app/claude-sonnet-4-5) · [Claude Opus 4.6](https://one-prompt-portfolio.vercel.app/claude-opus-4-6)**
 
 </div>
 
@@ -299,10 +301,14 @@ one-prompt-portfolio/
 │   │   └── claude-opus-4-6/
 │   │       └── page.tsx                # 🟡 Claude Opus 4.6 output (459 lines)
 │   └── components/
-│       ├── Hero.tsx                     # Landing page hero section
-│       ├── ModelsSection.tsx            # Model cards grid
+│       ├── Hero.tsx                     # Cinematic hero with experiment stats
+│       ├── ExperimentSection.tsx        # 4-step methodology explanation
+│       ├── PromptSection.tsx            # Terminal-style prompt display + copy
+│       ├── ModelsSection.tsx            # Model cards grid with metadata
 │       ├── ModelCard.tsx                # Individual model card component
-│       └── Footer.tsx                   # Landing page footer
+│       ├── ComparisonSection.tsx        # Side-by-side comparison table
+│       ├── FindingsSection.tsx          # Key observation cards
+│       └── Footer.tsx                   # Footer with social links
 ├── package.json
 ├── tsconfig.json
 ├── next.config.ts
@@ -338,15 +344,17 @@ npm run dev
 
 The app will be running at [http://localhost:3000](http://localhost:3000).
 
+Or visit the live deployment: **[one-prompt-portfolio.vercel.app](https://one-prompt-portfolio.vercel.app)**
+
 ### Routes
 
-| Route | Description |
-|---|---|
-| `/` | Experiment landing page |
-| `/gemini-3-pro` | Gemini 3 Pro generated portfolio |
-| `/gemini-3-flash` | Gemini 3 Flash generated portfolio |
-| `/claude-sonnet-4-5` | Claude Sonnet 4.5 generated portfolio |
-| `/claude-opus-4-6` | Claude Opus 4.6 generated portfolio |
+| Route | Live URL | Description |
+|---|---|---|
+| `/` | [Visit →](https://one-prompt-portfolio.vercel.app) | Experiment landing page |
+| `/gemini-3-pro` | [Visit →](https://one-prompt-portfolio.vercel.app/gemini-3-pro) | Gemini 3 Pro generated portfolio |
+| `/gemini-3-flash` | [Visit →](https://one-prompt-portfolio.vercel.app/gemini-3-flash) | Gemini 3 Flash generated portfolio |
+| `/claude-sonnet-4-5` | [Visit →](https://one-prompt-portfolio.vercel.app/claude-sonnet-4-5) | Claude Sonnet 4.5 generated portfolio |
+| `/claude-opus-4-6` | [Visit →](https://one-prompt-portfolio.vercel.app/claude-opus-4-6) | Claude Opus 4.6 generated portfolio |
 
 ---
 
@@ -365,6 +373,8 @@ This project is open source and available under the [MIT License](LICENSE).
 <div align="center">
 
 **Built with curiosity by [Muhammed Gümüş](https://github.com/muhammedgumus)**
+
+🌐 **[one-prompt-portfolio.vercel.app](https://one-prompt-portfolio.vercel.app)**
 
 *One prompt. Four models. Zero edits. Pure AI.*
 
