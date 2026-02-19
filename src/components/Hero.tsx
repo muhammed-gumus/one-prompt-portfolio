@@ -88,10 +88,10 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-gray-600 text-xs">
+      {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-gray-600 text-xs">
         <span>Scroll to explore</span>
         <div className="h-8 w-px bg-gradient-to-b from-gray-600 to-transparent animate-pulse" />
-      </div>
+      </div> */}
     </section>
   );
 }
